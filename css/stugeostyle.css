@@ -1,0 +1,176 @@
+body {
+	background: url(../images/black.jpg) no-repeat;
+	background: url(../images/n.black2.jpg) no-repeat;
+	background-size: cover;
+	padding:0;
+	margin:0;
+	font-family: "Open Sans", serif;
+}
+
+
+header {
+	/* Rectangle 1: */
+		background: white;
+		opacity: 0.89;
+    margin-bottom: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header h1 {
+	float:left;
+    padding: 0 15px;
+}
+
+			/*<!-- HAMBURGER MENU NAVIGATION -->
+
+				<!-- ********** Here *********** -->
+
+			<!-- TOP MENU NAVIGATION -->*/
+
+nav ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+nav a { 
+    float: right;
+    padding: 30px;
+    margin: 0 20px 0 0;
+    width: 80px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+		opacity: 0.89;
+		background: #314760;
+		/*border: 2px solid #E8E8E8;*/
+		border-radius: 3px;
+		transition: 2s;
+		text-align: center;
+}
+
+nav a:last-child{
+	margin-right: 20px;
+}
+
+h2 {
+	text-align: center;
+	/*margin: 0 570px;*/
+  color: white;
+  max-width: 11%;
+  /* Rectangle 31: */
+	background-image: linear-gradient(-153deg, #3023AE 0%, #226DC7 95%);
+}
+
+h2 ul {
+	list-style: none;
+	font-size: .70em;
+	margin: 0px;
+
+}
+
+h2 a {
+	text-decoration: none;
+	color: white;
+	padding: 0 0;
+	margin: 0 0 0 10px;
+}
+
+.title p{
+	color: white;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 2.4em; 
+	margin: 1px 0 0 0;
+	padding: 0 0;
+	font-weight: bold;
+}
+
+p span { 
+    color: white;
+    font: bold 70px/45px Helvetica, Sans-Serif;
+    letter-spacing: 2px;
+    /* background: rgba(0, 0, 0, 0.7); */
+    padding: 26px 55px 26px 71px;
+}
+
+#nav2 ul {
+	list-style: none;
+	padding:0;
+	margin:0 168px 0 0;
+}
+
+#nav2 a { 
+    float: right;
+    padding: 7px 7px;
+    margin: 130px 29px 40px 140px;;
+    width: 80px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+		opacity: 0.89;
+		background: #EC5218;
+		/*border: 2px solid #E8E8E8;*/
+		border-radius: 3px;
+		transition: .80s;
+		font-size: .30em;
+		text-align: center;
+
+}
+
+.slider img {
+	border-radius: 7px;
+	color: black;
+	padding: -22 0px;
+	margin: -30px 40px; 	
+	position: absolute; 
+  width: 100%; 
+}
+
+
+.service-icon {
+	margin: 55px 50px 0 0;
+
+
+}
+
+.social-icon {
+	margin-right: 10px;
+
+}
+
+#nav2 a:hover { 
+    background-color: #00B0A1;
+}
+
+nav a:hover { 
+    background-color: black;
+}
+
+
+.services {
+	position: absolute;
+	width: 1100px;
+  padding: 0px 83px 0 40px;
+  margin: 0px 100px;	
+  z-index: -1; 
+}
+
+.body-container {
+	margin: 
+}
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0 0 0;
+  background-color: #151412;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
